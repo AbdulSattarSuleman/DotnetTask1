@@ -1,0 +1,54 @@
+body{
+    font-family:'Adobe Garamond Pro';
+}
+/*h2{
+    text-align:center;
+}*/
+form{
+    margin-left:40%;
+}
+label{
+    font-size:14px;
+}
+input, textarea{
+    font-size:24px;
+    width:250px;
+}
+input[type=submit]{
+    font-family:'Agency FB';
+    font-weight:bold;
+    font-size:20px;
+    width:auto;
+    text-align:center;
+    margin-left:60px;
+    margin-top:30px;
+}
+/*#theForm{
+    background-color:#c66161;
+}*/
+#theForm input[type=submit]{
+    background-color: #b52a2a;
+    color:white;
+}
+ul.products-props{
+    font-size:18px;
+    color:white;
+
+}
+ul.products-props li{
+    list-style-type:none;
+}
+div.products-info{
+    border:1px solid black;
+    display:inline-block;
+    width:450px;
+    padding:8px 3px;
+    background-color: gray;
+    border-radius:10px;
+    margin:10px;
+}
+div.products-info img{
+    margin:3px 10px;
+    float:left;
+    max-width: 250px;
+}
